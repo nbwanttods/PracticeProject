@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="css/index.css" rel="stylesheet" />
+    <link href="css/swiper-3.4.1.min.css" rel="stylesheet" />
     <script src="jequery/jquery-2.1.4.min.js"></script>
+    <script src="js/swiper-3.4.1.min.js"></script>
     <script src="js/tabbar.js"></script>
     <title>壹号店</title>
     
@@ -18,6 +20,7 @@
    		
     </script>
 </head>
+
 <body>
 	<!--头部导航栏-->
 	  <div class="nav">	  
@@ -63,8 +66,40 @@
                 </li>
             </ul>
         </div>
-	  <!--手动自动轮播图的设计--> 
+	  <!--手动自动轮播图的设计——swiper--> 
+	  <div class="swiper-container">
+   			 <div class="swiper-wrapper">
+      			  <div class="swiper-slide"><img src="img/Bitmap.jpg" /> </div>
+      			  <div class="swiper-slide"><img src="img/img_zhiying.jpg" /> </div>
+       			  <div class="swiper-slide"><img src="img/img_jifen.jpg" /> </div>
+   			 </div>
+    			<!-- 如果需要分页器 -->
+   	 		<div class="swiper-pagination"></div>
+    
+    				<!-- 如果需要导航按钮 -->
+   			 	<!--<div class="swiper-button-prev"></div>-->
+    			    <!--<div class="swiper-button-next"></div>-->
+    
+   		  	  	<!-- 如果需要滚动条 -->
+    			<!--<div class="swiper-scrollbar"></div>-->
+	  </div>
 	  
-
+	<script>        
+  		var mySwiper = new Swiper ('.swiper-container', {
+   			 direction: 'horizontal',
+    			 loop: true,
+    			 speed:1,
+    			// 如果需要分页器
+    			pagination: '.swiper-pagination',
+    
+    			// 如果需要前进后退按钮
+//  			nextButton: '.swiper-button-next',
+//  			prevButton: '.swiper-button-prev',
+    
+    			// 如果需要滚动条
+//  			scrollbar: '.swiper-scrollbar',
+  })        
+  </script>
 </body>
+
 </html>
