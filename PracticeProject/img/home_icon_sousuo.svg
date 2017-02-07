@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>home_icon_sousuo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="壹号商城" transform="translate(-155.000000, -80.000000)">
+            <g id="home_icon_sousuo" transform="translate(156.000000, 81.000000)">
+                <ellipse id="Oval" fill="#B3B3B3" cx="3.87719298" cy="3.87719298" rx="0.912280702" ry="0.912280702"></ellipse>
+                <path d="M7.07017544,10.9701754 C5.2,11.4719298 3.1245614,10.9929825 1.64210526,9.53333333 C-0.547368421,7.34385965 -0.547368421,3.80877193 1.64210526,1.64210526 C3.83157895,-0.547368421 7.36666667,-0.547368421 9.53333333,1.64210526 C11.7,3.83157895 11.722807,7.36666667 9.53333333,9.53333333" id="Shape" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.80701754,9.80701754 L13,12.977193" id="Shape" stroke="#B3B3B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
